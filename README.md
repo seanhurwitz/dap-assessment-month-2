@@ -51,9 +51,11 @@ All the fields in each schema are mandatory.
 
 **REQUIRED**: Use the [joi](https://www.npmjs.com/package/joi) validation library to make sure any inputs fit the schema!
 
-Required methods / functions:
+## Required methods / functions:
 
-CRU (Create, Read, Update) of all Orgs, Groups, Sites.
+- CRU (Create, Read, Update) of all Orgs, Groups, Sites.
+- Graphql schema, queries and resolvers for all the typedefs
+- In a group, I should be able to fetch all Orgs below it, in an org, all sites.
 
 ## Tech Stack
 
