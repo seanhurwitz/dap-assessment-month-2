@@ -1,0 +1,16 @@
+input SiteCreateInput {
+  orgId: ID!
+  name: String!
+  location: [SiteLocationInput!]!
+}
+
+input SiteUpdateInput {
+  id: ID!
+  name: String
+  location: [SiteLocationInput]
+}
+
+input SiteLocationInput {
+  lat: Float!
+  lng: Float!
+}

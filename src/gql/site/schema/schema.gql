@@ -1,0 +1,16 @@
+type Site {
+  id: ID!
+  name: String!
+  org: Org!
+  location: [SiteLocation!]!
+}
+
+type SitesPaged {
+  data: [Site]!
+  pagination: PaginationData!
+}
+
+type SiteLocation {
+  lat: Float!
+  lng: Float!
+}

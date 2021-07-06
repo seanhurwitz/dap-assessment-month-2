@@ -1,0 +1,9 @@
+input OrgCreateInput {
+  groupId: ID!
+  name: String!
+}
+
+input OrgUpdateInput {
+  id: ID!
+  name: String
+}

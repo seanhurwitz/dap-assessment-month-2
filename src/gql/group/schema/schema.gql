@@ -1,0 +1,10 @@
+type Group {
+  id: ID!
+  name: String!
+  orgs(pagination: Pagination!, query: QueryAll, order: [[String]]): OrgsPaged!
+}
+
+type GroupsPaged {
+  data: [Group]!
+  pagination: PaginationData!
+}

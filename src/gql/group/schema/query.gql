@@ -1,0 +1,8 @@
+type Query {
+  getGroup(id: ID!): Group!
+  getGroups(
+    pagination: Pagination!
+    query: QueryAll
+    order: [[String]]
+  ): GroupsPaged!
+}

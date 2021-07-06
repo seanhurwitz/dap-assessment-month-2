@@ -1,0 +1,5 @@
+type PaginationData {
+  take: Int!
+  skip: Int!
+  total: Int!
+}

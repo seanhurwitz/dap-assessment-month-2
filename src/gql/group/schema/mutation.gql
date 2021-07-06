@@ -1,0 +1,4 @@
+type Mutation {
+  createGroup(input: GroupCreateInput): Group!
+  updateGroup(input: GroupUpdateInput): Group!
+}

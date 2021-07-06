@@ -1,0 +1,15 @@
+type Org {
+  id: ID!
+  name: String!
+  group: Group!
+  sites(
+    pagination: Pagination!
+    query: QueryAll
+    order: [[String]]
+  ): SitesPaged!
+}
+
+type OrgsPaged {
+  data: [Org]!
+  pagination: PaginationData!
+}

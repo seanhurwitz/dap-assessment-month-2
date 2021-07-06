@@ -1,0 +1,8 @@
+input QueryAll {
+  name: String
+}
+
+input Pagination {
+  take: Int!
+  skip: Int!
+}

@@ -1,0 +1,8 @@
+input GroupCreateInput {
+  name: String!
+}
+
+input GroupUpdateInput {
+  id: ID!
+  name: String
+}

@@ -1,0 +1,31 @@
+{
+  "name": "dap-challenge-end-month-1",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e js,json,gql src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanhurwitz/dap-challenge-end-month-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanhurwitz/dap-challenge-end-month-1/issues"
+  },
+  "homepage": "https://github.com/seanhurwitz/dap-challenge-end-month-1#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "casual": "^1.6.2",
+    "chalk": "^4.1.1",
+    "graphql": "^15.5.1",
+    "mysql2": "^2.2.5",
+    "ramda": "^0.27.1",
+    "sequelize": "^6.6.2",
+    "yup": "^0.32.9"
+  }
+}
